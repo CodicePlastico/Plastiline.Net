@@ -51,6 +51,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Extensions\DateTimeExtensionTest.cs" />
     <Compile Include="Extensions\IntExtensionTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
