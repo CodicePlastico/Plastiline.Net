@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\DateTimeExtension.cs" />
+    <Compile Include="Extensions\IListExtension.cs" />
     <Compile Include="Extensions\StringExtension.cs" />
     <Compile Include="Mapping\DynamicMapper.cs" />
     <Compile Include="Extensions\IntExtension.cs" />
