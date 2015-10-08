@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Extensions\DateTimeExtensionTest.cs" />
+    <Compile Include="Extensions\DictionaryExtensionTest.cs" />
     <Compile Include="Extensions\IListExtensionTest.cs" />
     <Compile Include="Extensions\StringExtensionTest.cs" />
     <Compile Include="Mapping\DynamicMapperTest.cs" />
