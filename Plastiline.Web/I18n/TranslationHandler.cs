@@ -15,6 +15,7 @@ namespace Plastiline.Web.I18n
     {
         public string FallbackLanguage { get; set; } = "EN";
         public string LanguageCookie { get; set; } = "PreferredLanguage";
+        public IEnumerable<string> ExcludedMediaTypes { get; set; } = new string[] { "image/jpeg" };
 
         private readonly ITranslator _translator;
         private const string LabelPlaceholderRegex = @"\|\#(?<word>\s?[^#]+)#\|";
@@ -26,7 +27,7 @@ namespace Plastiline.Web.I18n
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
             Task<HttpResponseMessage> response = base.SendAsync(request, cancellationToken);
-            if (response.Result.Content != null && response.Result.Content.Headers.ContentType.MediaType != "image/jpeg")
+            if (response.Result.Content != null && ExcludedMediaTypes.Contains(response.Result.Content.Headers.ContentType.MediaType))
             {
                 byte[] byteResponse = response.Result.Content.ReadAsByteArrayAsync().Result;
                 string body = Encoding.UTF8.GetString(byteResponse);
