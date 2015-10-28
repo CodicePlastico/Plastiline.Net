@@ -27,7 +27,7 @@ namespace Plastiline.Web.I18n
         protected override Task<HttpResponseMessage> SendAsync(HttpRequestMessage request, CancellationToken cancellationToken)
         {
             Task<HttpResponseMessage> response = base.SendAsync(request, cancellationToken);
-            if (response.Result.Content != null && ExcludedMediaTypes.Contains(response.Result.Content.Headers.ContentType.MediaType))
+            if (response.Result.Content != null && !ExcludedMediaTypes.Contains(response.Result.Content.Headers.ContentType.MediaType))
             {
                 byte[] byteResponse = response.Result.Content.ReadAsByteArrayAsync().Result;
                 string body = Encoding.UTF8.GetString(byteResponse);
