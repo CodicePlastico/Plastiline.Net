@@ -25,15 +25,6 @@ namespace Plastiline.Core.Tests.Extensions
         }
 
         [Fact]
-        public void EpochFor19700101OnLocalTimeZoneIs0()
-        {
-            DateTime oneHourAgo = new DateTime(1969, 12, 31, 23, 0, 0, DateTimeKind.Utc);
-            TimeZoneInfo info = TimeZoneInfo.FindSystemTimeZoneById("W. Europe Standard Time");
-            DateTime centralEurope = TimeZoneInfo.ConvertTime(oneHourAgo, info);
-            Assert.Equal(-3600000, centralEurope.Epoch());
-        }
-
-        [Fact]
         public void ZeroIsEpochSource()
         {
             Assert.Equal(StartOfEpoch, ((long)0).ToDateTime());
