@@ -1,2 +1,4 @@
 language: csharp
 solution: Plastiline.Net.sln
+mono:
+    - latest
