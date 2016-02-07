@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>$id$</id>
+		<version>$version$</version>
+		<title>$title$</title>
+		<authors>$author$</authors>
+		<owners>$author$</owners>
+		<projectUrl>https://github.com/pietrom/Plastiline.Net</projectUrl>
+		<requireLicenseAcceptance>false</requireLicenseAcceptance>
+		<description>$description$</description>
+		<releaseNotes>Initial version.</releaseNotes>
+		<copyright>Copyright 2015</copyright>
+		<tags>C# library web</tags>
+		<frameworkAssemblies>
+			<frameworkAssembly assemblyName="System.Net.Http" targetFramework="net452" />
+			<frameworkAssembly assemblyName="System.Net.Http.Formatting" targetFramework="net452" />
+		</frameworkAssemblies>
+	</metadata>
+</package>
