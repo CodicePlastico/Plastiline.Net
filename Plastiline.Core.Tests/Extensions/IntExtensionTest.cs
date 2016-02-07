@@ -11,7 +11,7 @@ namespace Plastiline.Core.Tests.Extensions
             string accumulator = "";
             int n = 5;
             n.Times( i => accumulator = accumulator + i.ToString());
-            Assert.Equal("123456", accumulator);
+            Assert.Equal("12345", accumulator);
         }
 
         [Fact]
