@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Plastiline.Core.Extensions;
+﻿using Plastiline.Core.Extensions;
 using Xunit;
 
-namespace Plastiline.Core.Tests.Extensions
+namespace Plastiline.Tests.Extensions
 {
     public class StringExtensionTest
     {

@@ -2,7 +2,7 @@
 using Plastiline.Core.Mapping;
 using Xunit;
 
-namespace Plastiline.Core.Tests.Mapping
+namespace Plastiline.Tests.Mapping
 {
     public class DynamicMapperTest
     {

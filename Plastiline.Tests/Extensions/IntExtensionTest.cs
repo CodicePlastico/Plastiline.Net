@@ -1,7 +1,7 @@
 ﻿using Plastiline.Core.Extensions;
 using Xunit;
 
-namespace Plastiline.Core.Tests.Extensions
+namespace Plastiline.Tests.Extensions
 {
     public class IntExtensionTest
     {

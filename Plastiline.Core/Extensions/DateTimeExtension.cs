@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Plastiline.Core.Extensions
+﻿namespace Plastiline.Core.Extensions
 {
     public static class DateTimeExtension
     {

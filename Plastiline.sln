@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastiline.Core", "Plastiline.Core\Plastiline.Core.csproj", "{CADCDBAE-6378-4A55-95EA-4C2A7EE4022D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastiline.Web", "Plastiline.Web\Plastiline.Web.csproj", "{E34816B5-AE1A-4582-AD7A-10B0410ADB36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Plastiline.Tests", "Plastiline.Tests\Plastiline.Tests.csproj", "{30B5424E-EA86-46E1-A858-A5D52C262CE0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CADCDBAE-6378-4A55-95EA-4C2A7EE4022D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CADCDBAE-6378-4A55-95EA-4C2A7EE4022D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CADCDBAE-6378-4A55-95EA-4C2A7EE4022D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CADCDBAE-6378-4A55-95EA-4C2A7EE4022D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E34816B5-AE1A-4582-AD7A-10B0410ADB36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E34816B5-AE1A-4582-AD7A-10B0410ADB36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E34816B5-AE1A-4582-AD7A-10B0410ADB36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E34816B5-AE1A-4582-AD7A-10B0410ADB36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B5424E-EA86-46E1-A858-A5D52C262CE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B5424E-EA86-46E1-A858-A5D52C262CE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B5424E-EA86-46E1-A858-A5D52C262CE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B5424E-EA86-46E1-A858-A5D52C262CE0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
